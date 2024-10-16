@@ -4,7 +4,7 @@ from datetime import date
 
 
 # Charger le fichier Excel source avec pandas
-source_data = pd.read_excel('C:/Users/Mouad Zaid/Desktop/Tech/Python/RTR_RS_gaps_RN_SWEET400_AXS_EPBi.xlsx',sheet_name='No TC_TR')
+source_data = pd.read_excel('C:/Users/Desktop/Tech/Python/RTRRSFile.xlsx',sheet_name='No TC_TR')
 source_data = source_data.fillna('0')
 
 # Définir le motif de chaîne à rechercher et la colonne cible

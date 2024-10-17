@@ -1,0 +1,3 @@
+SELECT Name FROM TC
+WHERE RB_DoorsLink = 'Gen_RS_0110-1480';
+
